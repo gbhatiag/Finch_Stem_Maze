@@ -13,93 +13,93 @@ import edu.cmu.ri.createlab.terk.robot.finch.Finch;
 public class CGI_STEM_MAZE {
 
 	public static void main(String[] args) {
-		
-		  // Instantiating the Finch object
-	      Finch myFinch = new Finch();
 
-	      myFinch.setWheelVelocities(100,100);
-	      myFinch.setLED(0, 0, 255, 1400);
-
-	      myFinch.sleep(1000);
-
-
-	      myFinch.setWheelVelocities(-60,60);
-	      myFinch.setLED(0,255,0, 1425);
-
-	      myFinch.sleep(1000);
+		// Instantiating the Finch object
+		Finch myFinch = new Finch();
 
 		myFinch.setWheelVelocities(100,100);
-		myFinch.setLED(0,0,255,3800);
+		myFinch.setLED(0, 0, 255, 1000);
+
+		myFinch.sleep(1000);
+
+
+		myFinch.setWheelVelocities(-60,60);
+		myFinch.setLED(0,255,0, 1025);
+
+		myFinch.sleep(1000);
+
+		myFinch.setWheelVelocities(100,100);
+		myFinch.setLED(0,0,255,3400);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(60,-60);
-		myFinch.setLED(255,0,0, 1425);
+		myFinch.setLED(255,0,0, 1025);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(100,100);
-		myFinch.setLED(0,0,255,1600);
+		myFinch.setLED(0,0,255,1200);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(60,-60);
-		myFinch.setLED(255,0,0, 1425);
+		myFinch.setLED(255,0,0, 1025);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(100,100);
-		myFinch.setLED(0,0,255,3600);
+		myFinch.setLED(0,0,255,3200);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(-60,60);
-		myFinch.setLED(0,255,0, 1425);
+		myFinch.setLED(0,255,0, 1025);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(100,100);
-		myFinch.setLED(0,0,255,3600);
+		myFinch.setLED(0,0,255,3200);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(-60,60);
-		myFinch.setLED(0,255,0, 1425);
+		myFinch.setLED(0,255,0, 1025);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(100,100);
-		myFinch.setLED(0,0,255,3600);
+		myFinch.setLED(0,0,255,3200);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(60,-60);
-		myFinch.setLED(255,0,0, 1425);
+		myFinch.setLED(255,0,0, 1025);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(100,100);
-		myFinch.setLED(0,0,255,1600);
+		myFinch.setLED(0,0,255,1200);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(60,-60);
-		myFinch.setLED(255,0,0, 1425);
+		myFinch.setLED(255,0,0, 1025);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(100,100);
-		myFinch.setLED(0,0,255,5200);
+		myFinch.setLED(0,0,255,4800);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(-60,60);
-		myFinch.setLED(0,255,0, 1425);
+		myFinch.setLED(0,255,0, 1025);
 
 		myFinch.sleep(1000);
 
 		myFinch.setWheelVelocities(100,100);
-		myFinch.setLED(0,0,255,5200);
+		myFinch.setLED(0,0,255,4800);
 
 		myFinch.sleep(1000);
 
@@ -108,9 +108,8 @@ public class CGI_STEM_MAZE {
 		myFinch.buzz(5000, 5000);
 
 		myFinch.saySomething("I made it!");
-
-	      myFinch.quit();
-	      System.exit(0);
+		myFinch.quit();
+		System.exit(0);
 	}
 
 }
